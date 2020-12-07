@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Formulario"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:padding="@dimen/_15sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="@string/Formulario_nombre"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp"
+            tools:ignore="NestedWeights" />
+
+        <EditText
+            android:id="@+id/et_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/Formulario_nombre"
+            android:textSize="@dimen/_18ssp"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="@string/Formulario_apellido"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp"
+            tools:ignore="NestedWeights" />
+
+        <EditText
+            android:id="@+id/et_apellido"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/Formulario_apellido"
+            android:textSize="@dimen/_18ssp"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="@string/Formulario_correo_electronico"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp"
+            tools:ignore="NestedWeights" />
+
+        <EditText
+            android:id="@+id/et_correo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/Formulario_correo_electronico"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/_18ssp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/_15sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="@string/Formulario_fecha_de_nacimiento"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp"
+            tools:ignore="NestedWeights" />
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/Formulario_fecha_de_nacimiento"
+            android:textSize="@dimen/_18ssp"
+            android:focusable="false"
+            android:clickable="false" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_continuar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_tab_24"
+        android:text="@string/Formulario_continuar"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

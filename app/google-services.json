@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "299660124702",
+    "firebase_url": "https://taxi-6058a.firebaseio.com",
+    "project_id": "taxi-6058a",
+    "storage_bucket": "taxi-6058a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299660124702:android:8df2070b5ba8c138d4040f",
+        "android_client_info": {
+          "package_name": "info.uberclone.taxiclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299660124702-5bgj0p4ktloqgh9av2rk1oiqdieaai8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.uberclone.taxiclone",
+            "certificate_hash": "2be5b5b7a2e2ba03f93197837c289964c3208edd"
+          }
+        },
+        {
+          "client_id": "299660124702-2c37h0fqn6r7v0kebq7g6eecsfqtkpj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIYl10YJ-Pj8btZ_NyqT0eN4PkzSq925Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299660124702-2c37h0fqn6r7v0kebq7g6eecsfqtkpj0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
